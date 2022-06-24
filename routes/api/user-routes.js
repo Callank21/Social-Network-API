@@ -24,7 +24,7 @@ router
 
 // /api/thoughts/:thoughtId/reactions
 router
-  .route('/:thoughtId/reactions')
+  .route('/:userId/friends/:friendId')
   .post(addFriend)
   .delete(removeFriend);
 
